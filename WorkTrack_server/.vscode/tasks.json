@@ -1,0 +1,49 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "npm",
+            "script": "build_server",
+            "problemMatcher":[],
+            "label": "npm: build_server",
+            "detail": "Компиляция сервера",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "npm",
+            "script": "run_server",
+            "problemMatcher":[],
+            "label": "npm run_server",
+            "detail": "Запуск сервера",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "npm",
+            "script": "build_installer",
+            "problemMatcher":[],
+            "label": "npm: build_installer",
+            "detail": "Компиляция для базы данных",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "type": "npm",
+            "script": "run_installer",
+            "problemMatcher":[],
+            "label": "npm run_installer",
+            "detail": "Запуск установки БД",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
